@@ -1,0 +1,12 @@
+{
+  "name": "typescript-pr1",
+  "version": "1.0.0",
+  "description": "Базовий TypeScript проєкт",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
