@@ -1,10 +1,12 @@
 {
   "name": "typescript-pr1",
   "version": "1.0.0",
-  "description": "Базовий TypeScript проєкт",
-  "main": "dist/index.js",
+  "description": "Інтерактивний веб-сайт з TypeScript",
+  "main": "public/js/main.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
+    "target": "ES2017",
+    "module": "ES2015",
+    "lib": ["ES2017", "DOM"],
     "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "rootDir": "./src",
-    "outDir": "./dist"
-  }
+    "outDir": "./public/js",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
